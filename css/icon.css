@@ -1,0 +1,36 @@
+a.nav-link.active.icon_dashboard:before{
+    background: url(../img/icon/dashboard-active.png) no-repeat bottom;
+}
+a.nav-link.active.icon_profile:before{
+    background: url(../img/icon/profile-active.png) no-repeat bottom;
+}
+a.nav-link.active.icon_deposit:before{
+    background: url(../img/icon/card-active.png) no-repeat bottom;
+}
+a.nav-link.active.icon_exchange:before{
+    background: url(../img/icon/exchange-active.png) no-repeat bottom;
+}
+a.nav-link.active.icon_logout:before{
+    background: url(../img/icon/log-out-active.png) no-repeat bottom;
+}
+.icon:before{
+    display: inline-block;
+    content: '';
+    width: 24px;
+    height: 24px;
+}
+.icon_dashboard:before{
+    background: url(../img/icon/dashboard.png) no-repeat bottom;
+}
+.icon_profile:before{
+    background: url(../img/icon/profile.png) no-repeat bottom;
+}
+.icon_deposit:before{
+    background: url(../img/icon/card.png) no-repeat bottom;
+}
+.icon_exchange:before{
+    background: url(../img/icon/exchange.png) no-repeat bottom;
+}
+.icon_logout:before{
+    background: url(../img/icon/log-out.png) no-repeat bottom;
+}

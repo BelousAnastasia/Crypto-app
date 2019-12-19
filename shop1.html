@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Shop1</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="all,follow">
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Google fonts - Roboto -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&amp;subset=cyrillic" rel="stylesheet">
+    <!-- theme stylesheet-->
+    <link rel="stylesheet" href="css/style.blue.css" id="theme-stylesheet">
+    <!-- Custom stylesheet - for your changes-->
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/new-style.css">
+    <link rel="stylesheet" href="css/color.css">
+    <!-- material icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- CSS defining icons (required) -->
+    <link rel="stylesheet" href="css/cryptocoins.css">
+    <!-- Favicon-->
+    <!-- <link rel="shortcut icon" href="img/favicon.png"> -->
+</head>
+
+<body class="shrinked">
+    <div class="page home-page">
+        <!-- Main Navbar-->
+        <header class="header">
+            <nav class="navbar navbar-toggleable-md bg-faded d-flex justify-content-between align-items-center">
+                <a id="toggle-btn" href="#" class="menu-btn">
+                    <i class="material-icons">menu</i>
+                </a>
+                <a class="logo" href="#">
+                    <img src="img/logo-mini.png">
+                </a>
+                <a href="index.html">
+                    <i class="material-icons">exit_to_app</i>
+                </a>
+            </nav>
+        </header>
+        <div class="page-content d-flex align-items-stretch">
+
+            <!-- Side Navbar -->
+            <nav class="side-navbar shrinked">
+                <!-- Sidebar Header-->
+                <div class="sidebar-header d-flex align-items-center flex-column">
+                    <div class="bg-side-header"></div>
+                    <div class="person d-flex align-items-center flex-column">
+                        <div class="avatar">
+                            <img src="img/avatar2.png" alt="..." class="img-fluid rounded-circle">
+                        </div>
+                        <div class="title">
+                            <h1 class="h4">Mark Stephen</h1>
+                            <p>
+                                <span class="success-verificarion"></span>Verification</p>
+                        </div>
+                    </div>
+
+                </div>
+                <ul class="list-unstyled">
+                    <li class="active">
+                        <a href="dashboard.html">
+                            <i class="material-icons">dashboard</i>
+                            <span class="span_list">Панель управления</span>
+                        </a>
+                    </li>
+                    <li class="">
+                        <a href="profile.html">
+                            <i class="material-icons">person</i>
+                            <span class="span_list">Профиль</span>
+                        </a>
+                    </li>
+                    <li class="">
+                        <a href="shop1.html">
+                            <i class="material-icons">shopping_cart</i>
+                            <span class="span_list">Мои магазины</span>
+                        </a>
+                    </li>
+                    <li class="">
+                        <a href="documentation.html">
+                            <i class="material-icons">info_outline</i>
+                            <span class="span_list">Интеграция</span>
+                        </a>
+                    </li>
+                    <li class="">
+                        <a href="support.html">
+                            <i class="material-icons">assignment</i>
+                            <span class="span_list">Поддержка</span>
+                        </a>
+                    </li>
+                    <li class="">
+                        <a href="affiliate.html">
+                            <i class="material-icons">trending_up</i>
+                            <span class="span_list">Аффилейт программа</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="content-inner">
+                <header class="page-header_tabs">
+                    <!-- Nav tabs -->
+                    <ul class="nav nav-tabs" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active" data-toggle="tab" href="#main-settings" role="tab" aria-controls="main-settings" aria-selected="true">Общие настройки</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-toggle="tab" href="#payments" role="tab" aria-controls="payments" aria-selected="false">Настройки платежей</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-toggle="tab" href="#balance" role="tab" aria-controls="balance" aria-selected="false">Баланс</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-toggle="tab" href="#conclusion" role="tab" aria-controls="conclusion" aria-selected="false">Вывод средств / Обмен</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-toggle="tab" href="#api-shop" role="tab" aria-controls="api-shop" aria-selected="false">API магазина</a>
+                        </li>
+                    </ul>
+                </header>
+                <section class="accordion-tabs">
+                    <div class="container-fluid">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="main-settings" role="tabpanel" aria-labelledby="main-settings">
+                                <div class="row">
+                                    <div id="accordion" class="accordion" role="tablist" aria-multiselectable="true">
+                                        <div class="card card-acc">
+                                            <div class="card-header" role="tab" id="headingOne">
+                                                <h5 class="mb-0">
+                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                                        Общие настройки платежей
+                                                    </a>
+                                                </h5>
+                                            </div>
+                                            <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne">
+                                                <div class="card-block">
+                                                    <form action="">
+                                                        <div class="row">
+                                                            <div class="form-group col-md-6 col-12">
+                                                                <label for="">Адрес сайта</label>
+                                                                <input type="text" class="form-control">
+                                                            </div>
+                                                            <div class="form-group col-md-6 col-12">
+                                                                <label for="">Название магазина</label>
+                                                                <input type="text" class="form-control">
+                                                            </div>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label for="" class="d-flex align-items-center label-info">Краткое описание <i class="material-icons">info_outline</i></label>
+                                                            <textarea name="textarea" id="" class="textarea" cols="30" rows="10"></textarea>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div id="accordion2" class="accordion" role="tablist" aria-multiselectable="true">
+                                        <div class="card card-acc">
+                                            <div class="card-header" role="tab" id="heading2">
+                                                <h5 class="mb-0">
+                                                    <a data-toggle="collapse" data-parent="#accordion1" href="#collapse2" aria-expanded="true" aria-controls="collapse2">
+                                                        Логотип
+                                                    </a>
+                                                </h5>
+                                            </div>
+                                            <div id="collapse2" class="collapse show" role="tabpanel" aria-labelledby="heading2">
+                                                <div class="card-block">
+                                                    <div class="row">
+                                                        <div class="col-md-6 col-12 col-sm-12 d-flex align-items-center justify-content-around border-r">
+                                                            <p>Выберите изображение</p>
+                                                            <div class="file-upload mdl-button d-flex align-items-center justify-content-center">
+                                                                <span class="btn btn-upload"><i class="material-icons">file_upload</i> Choose file</span>
+                                                                <input type="file" name="FileAttachment" id="FileAttachment" class="upload" />
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-6 col-12 col-sm-12 d-flex align-items-end flex-column">
+                                                            <p>Оптимальный размер логотипа — 200x160 px.</p>
+                                                            <p>Допустимые форматы: jpeg, png, gif</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div id="accordion3" class="accordion" role="tablist" aria-multiselectable="true">
+                                        <div class="card card-acc">
+                                            <div class="card-header" role="tab" id="heading3">
+                                                <h5 class="mb-0">
+                                                    <a data-toggle="collapse" data-parent="#accordion3" href="#collapse3" aria-expanded="true" aria-controls="collapse3">
+                                                        Уведомления
+                                                    </a>
+                                                </h5>
+                                            </div>
+                                            <div id="collapse3" class="collapse show" role="tabpanel" aria-labelledby="heading3">
+                                                <div class="card-block">
+                                                    <div class="row">
+                                                        <div class="col-md-6 col-12 col-sm-12 border-r">
+                                                            <label class="label d-flex justify-content-start">
+                                                                <span>По SMS</span>
+                                                                <input  class="label__checkbox" type="checkbox" />
+                                                                <span class="label__text">
+                                                                    <span class="label__check"></span>
+                                                                </span>
+                                                            </label>
+                                                        </div>
+                                                        <div class="col-md-6 col-12 col-sm-12">
+                                                            <label class="label d-flex justify-content-end">
+                                                                <input  class="label__checkbox" type="checkbox" />
+                                                                <span class="label__text">
+                                                                    <span class="label__check"></span>
+                                                                </span>
+                                                                <span>По электронной почте</span>
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="payments" role="tabpanel" aria-labelledby="payments">
+                                <div class="row">
+                                    <div id="accordion4" class="accordion" role="tablist" aria-multiselectable="true">
+                                        <div class="card card-acc">
+                                            <div class="card-header" role="tab" id="heading4">
+                                                <h5 class="mb-0">
+                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse4" aria-expanded="true" aria-controls="collapse4">
+                                                        Настройка платежей
+                                                    </a>
+                                                </h5>
+                                            </div>
+                                            <div id="collapse4" class="collapse show" role="tabpanel" aria-labelledby="heading4">
+                                                <div class="card-block">
+                                                    <h4 class="h3 text-center">Выберите основную валюту или криптовалюу для отображения на вкладке "Баланс"</h4>
+                                                    <form action="">
+                                                        <div class="row">
+                                                            <div class="form-group col-md-6 col-12">
+                                                                <select class="form-control ">
+                                                                    <option>USD</option>
+                                                                </select>
+                                                            </div>
+                                                            <div class="form-group col-md-6 col-12">
+                                                                <select class="form-control ">
+                                                                    <option>BTC</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="form-group col-md-6 col-12">
+                                                                <label for="">Выберите время жизни платежа</label>
+                                                                <input type="text" class="form-control" value="35">
+                                                                <div class="lifetime-helpers">
+                                                                    <a class="lifetime-helper" data-time="5">5 минут</a>
+                                                                    <a class="lifetime-helper" data-time="30">30 минут</a>
+                                                                    <a class="lifetime-helper" data-time="60">1 час</a>
+                                                                    <a class="lifetime-helper" data-time="1440">1 день</a>
+                                                                    <a class="lifetime-helper" data-time="10080">1 неделя</a>
+                                                                    <a class="lifetime-helper" data-time="43200">30 дней</a>
+                                                                </div>
+                                                                <div class="info-shop d-flex align-items-center">
+                                                                    <i class="material-icons">info</i>
+                                                                    <p class="mb-0">При создании новых одноразовых кодов, старые будут аннулированы</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div id="accordion5" class="accordion" role="tablist" aria-multiselectable="true">
+                                        <div class="card card-acc">
+                                            <div class="card-header" role="tab" id="heading5">
+                                                <h5 class="mb-0">
+                                                    <a data-toggle="collapse" data-parent="#accordion5" href="#collapse5" aria-expanded="true" aria-controls="collapse5">
+                                                        Настройки автоконвертации
+                                                    </a>
+                                                </h5>
+                                            </div>
+                                            <div id="collapse5" class="collapse show" role="tabpanel" aria-labelledby="heading5">
+                                                <div class="card-block">
+                                                    <form action="">
+                                                        <div class="row align-items-end">
+                                                            <div class="form-group col-lg-4 col-sm-12 col-md-4 col-12">
+                                                                <label for="">Конвертируемую валюта</label>
+                                                                <select class="form-control ">
+                                                                    <option>USD</option>
+                                                                </select>
+                                                            </div>
+                                                            <div class="col-12 col-lg-1 col-sm-12 col-md-1 col-arrow form-group text-center">
+                                                                <i class="material-icons icon-arr_for">arrow_forward</i>
+                                                            </div>
+                                                            <div class="form-group col-lg-4 col-12 col-sm-12 col-md-4">
+                                                                <label for="">Валюту, в которую конвертировать</label>
+                                                                <select class="form-control ">
+                                                                    <option>BTC</option>
+                                                                </select>
+                                                            </div>
+                                                            <div class="form-button form-group col-lg-3 col-sm-12 col-md-3 text-center">
+                                                                <button type="button" class="btn btn-yellow">Сохранить</button>
+                                                            </div>
+                                                        </div>
+                                                    </form>
+                                                    <h4 class="h3">Список выбранных конвертаций</h4>
+                                                    <div class="bg_table">
+                                                        <table class="table table_convert">
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td>BTC <i class="material-icons icon-arr_for">arrow_forward</i> USD <i class="material-icons">close</i></td>
+                                                                    <td>BTC <i class="material-icons icon-arr_for">arrow_forward</i> USD <i class="material-icons">close</i></td>
+                                                                    <td>BTC <i class="material-icons icon-arr_for">arrow_forward</i> USD <i class="material-icons">close</i></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>BTC <i class="material-icons icon-arr_for">arrow_forward</i> USD <i class="material-icons">close</i></td>
+                                                                    <td>BTC <i class="material-icons icon-arr_for">arrow_forward</i> USD <i class="material-icons">close</i></td>
+                                                                    <td>BTC <i class="material-icons icon-arr_for">arrow_forward</i> USD <i class="material-icons">close</i></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>BTC <i class="material-icons icon-arr_for">arrow_forward</i> USD <i class="material-icons">close</i></td>
+                                                                    <td>BTC <i class="material-icons icon-arr_for">arrow_forward</i> USD <i class="material-icons">close</i></td>
+                                                                    <td>BTC <i class="material-icons icon-arr_for">arrow_forward</i> USD <i class="material-icons">close</i></td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="balance" role="tabpanel" aria-labelledby="balance-tab">
+                                <div class="row">
+                                    <div class="col-md-6 d-flex flex-column">
+                                        <div class="card mb-30 icon_top">
+                                            <div class="plash_img">
+                                                <i class="cc BTC-alt"></i>
+                                            </div>
+                                            <p>0.0000000012354 <span class="currency">BTC</span></p>
+                                        </div>
+                                        <div class="card icon_top">
+                                            <div class="plash_img">
+                                                <i class="cc ETH-alt"></i>
+                                            </div>
+                                            <p>0.000000001235 <span class="currency">ETH</span></p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="card chart_wrap"></div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="card icon_left">
+                                            <div class="icon_wrap">
+                                                <i class="cc BTC-alt"></i>
+                                            </div>
+                                            <p>0.000000001235 <span class="currency">BTC</span></p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 icon_left">
+                                        <div class="card icon_left">
+                                            <div class="icon_wrap">
+                                                <i class="cc ETH-alt"></i>
+                                            </div>
+                                            <p>0.000000001235 <span class="currency">BTC</span></p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 icon_left">
+                                        <div class="card icon_left">
+                                            <div class="icon_wrap">
+                                                <i class="cc LTC-alt"></i>
+                                            </div>
+                                            <p>0.000000001235 <span class="currency">BTC</span></p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 icon_left">
+                                        <div class="card icon_left">
+                                            <div class="icon_wrap">
+                                                <i class="cc DASH-alt"></i>
+                                            </div>
+                                            <p>0.000000001235 <span class="currency">BTC</span></p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 icon_left">
+                                        <div class="card icon_left">
+                                            <div class="icon_wrap">
+                                                <img src="img/zcash.svg" alt="zcash">
+                                            </div>
+                                            <p>0.000000001235 <span class="currency">BTC</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h2 class="section_title">История транзакций</h2>
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="card">
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="conclusion" role="tabpanel" aria-labelledby="conclusion-tab">
+                                <div id="accordion" class="accordion" role="tablist" aria-multiselectable="true">
+
+                                    <div class="card card-acc mb-0">
+                                        <div class="card-header" role="tab" id="headingcOne">
+                                            <h5 class="mb-0">
+                                                <a data-toggle="collapse" data-parent="#accordion" href="#cOne" aria-expanded="true" aria-controls="cOne">
+                                                    Общие настройки платежей
+                                                </a>
+                                            </h5>
+                                        </div>
+                                        <div id="cOne" class="collapse show" role="tabpanel" aria-labelledby="headingcOne">
+                                            <div class="card-block pb-0">
+                                                <div class="row">
+                                                    <div class="col-md-6 text-center">
+                                                        <div class="card">
+                                                            <img src="img/cauri.png" alt="cauri" class="p_img">
+                                                            <div class="currency">
+                                                                Валюта: <span class="color_green_d">USD, EUR</span>
+                                                            </div>
+                                                            <div class="time">
+                                                                Время обработки: <span class="color_orange">3 business days</span>
+                                                            </div>
+                                                            <button class="btn btn_outline">вывод</button>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-6 text-center">
+                                                        <div class="card">
+                                                            <img src="img/interkassa.png" alt="interkassa" class="p_img">
+                                                            <div class="currency">
+                                                                Валюта: <span class="color_green_d">RUB, UAH</span>
+                                                            </div>
+                                                            <div class="time">
+                                                                Время обработки: <span class="color_orange">3 рабочих дня</span>
+                                                            </div>
+                                                            <button class="btn btn_outline">вывод</button>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-6 text-center">
+                                                        <div class="card">
+                                                            <img src="img/ezpay.png" alt="ezpay" class="p_img">
+                                                            <div class="currency">
+                                                                Валюта: <span class="color_green_d">USD, EUR</span>
+                                                            </div>
+                                                            <div class="time">
+                                                                Время обработки: <span class="color_orange">1-2 дня</span>
+                                                            </div>
+                                                            <button class="btn btn_outline">вывод</button>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-6 text-center">
+                                                        <div class="card">
+                                                            <img src="img/mt.png" alt="mt" class="p_img">
+                                                            <div class="currency">
+                                                                Валюта: <span class="color_green_d">USD, EUR</span>
+                                                            </div>
+                                                            <div class="time">
+                                                                Время обработки: <span class="color_orange">1-2 дня</span>
+                                                            </div>
+                                                            <button class="btn btn_outline">вывод</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="card card-acc">
+                                        <div class="card-header" role="tab" id="headingcTwo">
+                                            <h5 class="mb-0">
+                                                <a data-toggle="collapse" data-parent="#accordion" href="#cTwo" aria-expanded="true" aria-controls="cTwo">
+                                                    Обмен
+                                                </a>
+                                            </h5>
+                                        </div>
+                                        <div id="cTwo" class="collapse show" role="tabpanel" aria-labelledby="headingcTwo">
+                                            <div class="card-block">
+                                                <form>
+                                                    <div class="row">
+                                                        <div class="form-group col-md-6">
+                                                            <label class="form-control-label">Меняю</label>
+                                                            <select class="form-control">
+                                                                <option value="">0.0001345 BTC</option>
+                                                                <option value="">0.0001345 BTC</option>
+                                                                <option value="">0.0001345 BTC</option>
+                                                            </select>
+                                                        </div>
+                                                        <div class="form-group col-md-6">
+                                                            <label class="form-control-label">Сумма отправки</label>
+                                                            <input type="text" class="form-control">
+                                                        </div>
+                                                        <div class="form-group col-md-6">
+                                                            <label class="form-control-label">Получаю</label>
+                                                            <select class="form-control">
+                                                                <option value="">0.34001345 ETH</option>
+                                                                <option value="">0.34001345 ETH</option>
+                                                                <option value="">0.34001345 ETH</option>
+                                                            </select>
+                                                        </div>
+                                                        <div class="form-group col-md-6">
+                                                            <label class="form-control-label">Сумма получения</label>
+                                                            <input type="text" class="form-control">
+                                                        </div>
+                                                    </div>
+                                                    <button class="btn btn_b_purple">Обменять</button>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="card card-acc">
+                                        <div class="card-header" role="tab" id="headingcThree">
+                                            <h5 class="mb-0">
+                                                <a data-toggle="collapse" data-parent="#accordion" href="#cThree" aria-expanded="true" aria-controls="cThree">
+                                                    История транзакций
+                                                </a>
+                                            </h5>
+                                        </div>
+                                        <div id="cThree" class="collapse show" role="tabpanel" aria-labelledby="headingcThree">
+                                            <div class="card-block">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="api-shop" role="tabpanel" aria-labelledby="api-shop-tab">
+                                <div id="accordion" class="accordion" role="tablist" aria-multiselectable="true">
+
+                                    <div class="card card-acc">
+                                        <div class="card-header" role="tab" id="headingapiOne">
+                                            <h5 class="mb-0">
+                                                <a data-toggle="collapse" data-parent="#accordion" href="#apiOne" aria-expanded="true" aria-controls="apiOne">
+                                                    API магазина
+                                                </a>
+                                            </h5>
+                                        </div>
+                                        <div id="apiOne" class="collapse show" role="tabpanel" aria-labelledby="headingapiOne">
+                                            <div class="card-block">
+                                                <form>
+                                                    <div class="row">
+                                                        <div class="col-12 text-center mb-4">
+                                                            <p>Здесь должна быть информация, много информации  для того, чтоб вы читали информацию и были такие проиформированные. Потому что куда же без этого. Мы живем в 21 веке и информация является крайне важной штукой. Информативность - наше все, даешь больше информаиции!</p>
+                                                        </div>
+                                                        <div class="form-group col-md-6">
+                                                            <label class="form-control-label">PrivatKey <i class="material-icons">info_outline</i></label>
+                                                            <input type="text" class="form-control" value="какой-то-privatkey-ну-скопируй-меня" readonly>
+                                                            <a href="#"><i class="material-icons">content_copy</i></a>
+                                                        </div>
+                                                        <div class="form-group col-md-6">
+                                                            <label class="form-control-label">PrivatKey <i class="material-icons">info_outline</i></label>
+                                                            <input type="text" class="form-control" value="какой-то-privatkey-ну-скопируй-меня" readonly>
+                                                            <a href="#"><i class="material-icons">content_copy</i></a>
+                                                        </div>
+                                                        <div class="form-group col-md-6">
+                                                            <label class="form-control-label">Callback <i class="material-icons">info_outline</i></label>
+                                                            <input type="text" class="form-control">
+                                                            <a href="#"><i class="material-icons">content_copy</i></a>
+                                                        </div>
+                                                        <div class="form-group col-md-6 d-flex justify-content-end flex-column">
+                                                            <button class="btn btn_b_purple">Обменять</button>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+     <!-- Modal -->
+    <div class="modal fade" id="conclusionModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="modal-title" id="exampleModalLabel">Вывод средств</h2>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <i class="material-icons">close</i>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label class="form-control-label">Кошелек</label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label class="form-control-label">Сумма отправления</label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label class="form-control-label">Кошелек получения</label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <button class="btn btn_b_purple">Вывод</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Javascript files-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/tether.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.cookie.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/front.js"></script>
+</body>
+
+</html>

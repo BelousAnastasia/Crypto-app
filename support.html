@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Support</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="all,follow">
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Google fonts - Roboto -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&amp;subset=cyrillic" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- theme stylesheet-->
+    <!-- <link rel="stylesheet" href="css/style.blue.css" id="theme-stylesheet"> -->
+    <!-- Custom stylesheet - for your changes-->
+    <link rel="stylesheet" href="css/style.blue.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/new-style.css">
+    <link rel="stylesheet" href="css/color.css">
+    <!-- Favicon-->
+    <!-- <link rel="shortcut icon" href="img/favicon.png"> -->
+</head>
+<body>
+<div class="page support-page">
+
+    <!-- Main Navbar-->
+    <header class="header">
+        <nav class="navbar navbar-toggleable-md bg-faded d-flex justify-content-between align-items-center">
+            <a id="toggle-btn" href="#" class="menu-btn"><i class="material-icons">menu</i></a>
+            <a class="logo" href="dashboard.html"><img src="img/logo-mini.png"></a>
+            <a href="index.html"><i class="material-icons">exit_to_app</i></a>
+        </nav>
+    </header>
+
+    <div class="page-content d-flex align-items-stretch">
+        <!-- Side Navbar -->
+        <nav class="side-navbar shrinked">
+            <!-- Sidebar Header-->
+            <div class="sidebar-header d-flex align-items-center flex-column">
+                <div class="bg-side-header"></div>
+                <div class="person d-flex align-items-center flex-column">
+                    <div class="avatar"><img src="img/avatar2.png" alt="..." class="img-fluid rounded-circle"></div>
+                    <div class="title">
+                        <h1 class="h4">Mark Stephen</h1>
+                        <p><span class="success-verificarion"></span>Verification</p>
+                    </div>
+                </div>
+
+            </div>
+            <ul class="list-unstyled">
+                <li class=""><a href="dashboard.html"><i class="material-icons">dashboard</i><span class="span_list">Панель управления</span></a></li>
+                <li class=""><a href="profile.html"><i class="material-icons">person</i><span class="span_list">Профиль</span></a></li>
+                <li class=""><a href="shop1.html"><i class="material-icons">shopping_cart</i><span class="span_list">Мои магазины</span></a></li>
+                <li class=""><a href="documentation.html"><i class="material-icons">info_outline</i><span class="span_list">Интеграция</span></a></li>
+                <li class="active"><a href="support.html"><i class="material-icons">assignment</i><span class="span_list">Поддержка</span></a></li>
+                <li class=""><a href="affiliate.html"><i class="material-icons">trending_up</i><span class="span_list">Аффилейт программа</span></a></li>
+            </ul>
+        </nav>
+
+        <div class="content-inner">
+            <header class="page-header">
+                <div class="container-fluid">
+                    <h2 class="mb-0 title-page">Поддержка</h2>
+                </div>
+            </header>
+            <!-- support section -->
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-6 d-flex flex-column">
+                        <div class="card mb-30">
+                            <div class="icon_wrap bgi_aqva">
+                                <div class="icon_bg">
+                                    <i class="material-icons">help_outline</i>
+                                </div>
+                            </div>
+                            <div class="info_wrap">
+                                <p>У вас появились вопросы?</p>
+                                <p>Возможно, мы уже ответили на них в <a href="#" class="color_aqva">FAQ</a></p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="icon_wrap bgi_orange">
+                                <div class="icon_bg">
+                                    <i class="material-icons">forum</i>
+                                </div>
+                            </div>
+                            <div class="info_wrap">
+                                <p>У вас остались вопросы?</p>
+                                <p>Вы можете обратиться в нашу <a href="#" class="color_orange">Службу поддержки</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card bg-card justify-content-between">
+                            <p>Связаться по другим вопросам</p>
+                            <div class="contact_wrap">
+                                <div class="contact_row">
+                                    <div class="icon_wrap bgi_green">
+                                        <div class="icon_bg">
+                                            <i class="material-icons">call</i>
+                                        </div>
+                                    </div>
+                                    <p>8 800 355 355</p>
+                                </div>
+                                <div class="contact_row">
+                                    <div class="icon_wrap bgi_purple">
+                                        <div class="icon_bg">
+                                            <i class="material-icons">mail_outline</i>
+                                        </div>
+                                    </div>
+                                    <p>notification@eqvola.net</p>
+                                </div>
+                                <div class="contact_row">
+                                    <div class="icon_wrap bgi_blue">
+                                        <div class="icon_bg">
+                                            <i class="material-icons">schedule</i>
+                                        </div>
+                                    </div>
+                                    <p>10:00 - 17:00</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <h2 class="section_title">Создать тикет</h2>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="card">
+                            <form class="ticket_form">
+                                <div class="row">
+                                    <div class="col-md-6 form-group">
+                                        <label class="form-control-label">Тема</label>
+                                        <input type="text" class="form-control">
+                                    </div>
+                                    <div class="col-md-6 form-group">
+                                        <label class="form-control-label">Категория</label>
+                                        <select class="form-control">
+                                            <option value="" disabled selected>Выберите категорию</option>
+                                            <option value="">категория 1</option>
+                                            <option value="">категория 2</option>
+                                            <option value="">категория 3</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-12 form-group">
+                                        <label class="form-control-label">Сообщение</label>
+                                        <textarea class="form-control"></textarea>
+                                    </div>
+                                </div>
+                                <div class="form-button">
+                                    <a href="support-chat.html" class="btn btn_outline">Создать тикет</a>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <h2 class="section_title">Список запросов</h2>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="card">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- support section -->
+        </div>
+        
+    </div>
+    
+</div>
+
+<!-- Javascript files-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="js/tether.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.cookie.js"></script>
+<script src="js/jquery.validate.min.js"></script>
+<script src="js/front.js"></script>
+<script src="js/custom.js"></script>
+</body>
+</html>

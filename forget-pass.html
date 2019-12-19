@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Authentication</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="all,follow">
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Google fonts - Roboto -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&amp;subset=cyrillic" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- theme stylesheet-->
+    <!-- <link rel="stylesheet" href="css/style.blue.css" id="theme-stylesheet"> -->
+    <!-- Custom stylesheet - for your changes-->
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/color.css">
+    <!-- Favicon-->
+    <!-- <link rel="shortcut icon" href="img/favicon.png"> -->
+</head>
+<body>
+<div class="page authentication-page">
+    <div class="container d-flex align-items-center">
+        <div class="row">
+            <!-- Logo & Information Panel-->
+            <div class="col-lg-3 bg-dark">
+                <div class="info d-flex align-items-center justify-content-center">
+                    <div class="logo">
+                        <img src="img/logo.png" alt="logotype" class="logo">
+                    </div>
+                </div>
+            </div>
+            <!-- Form Panel    -->
+            <div class="col-lg-9 bg-white">
+                <div class="lang_wrap">
+                    <select>
+                        <option value="Ru">Ru</option>
+                        <option value="En">En</option>
+                    </select>
+                    <i class="material-icons">arrow_drop_down</i>
+                </div>
+                <div class="info d-flex align-items-center justify-content-center">
+                    <div class="content">
+                        <h1>Восстановновление доступа</h1>
+                        <form class="form-holder form-horizontal">
+                            <div class="form-group row align-items-center">
+                                <label class="col-sm-3 form-control-label">Email:</label>
+                                <div class="col-sm-9">
+                                    <input type="email" class="form-control">
+                                </div>
+                            </div>
+                        </form>
+                        <div class="link_wrap row">
+                            <div class="col-12 text-right">
+                                <a href="reset-pass.html" class="next_link">ОТПРАВИТЬ <i class="material-icons">arrow_forward</i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="approveSuccessModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="modal-title" id="exampleModalLabel">Поздравляем!</h2>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <i class="material-icons">close</i>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Ваш аккаунт активирован!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<!-- Javascript files-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="js/tether.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.cookie.js"></script>
+<script src="js/jquery.validate.min.js"></script>
+<script src="js/front.js"></script>
+</body>
+</html>

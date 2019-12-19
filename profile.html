@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Profile</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="all,follow">
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Google fonts - Roboto -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&amp;subset=cyrillic" rel="stylesheet">
+    <!-- theme stylesheet-->
+    <link rel="stylesheet" href="css/style.blue.css" id="theme-stylesheet">
+    <!-- Custom stylesheet - for your changes-->
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/new-style.css">
+    <link rel="stylesheet" href="css/color.css">
+    <!-- material icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Favicon-->
+    <!-- <link rel="shortcut icon" href="img/favicon.png"> -->
+</head>
+<body class="shrinked">
+<div class="page home-page">
+    <!-- Main Navbar-->
+    <header class="header">
+        <nav class="navbar navbar-toggleable-md bg-faded d-flex justify-content-between align-items-center">
+            <a id="toggle-btn" href="#" class="menu-btn"><i class="material-icons">menu</i></a>
+            <a class="logo" href="dashboard.html"><img src="img/logo-mini.png"></a>
+            <a href="index.html"><i class="material-icons">exit_to_app</i></a>
+        </nav>
+    </header>
+    <div class="page-content d-flex align-items-stretch">
+
+        <!-- Side Navbar -->
+        <nav class="side-navbar shrinked">
+            <!-- Sidebar Header-->
+            <div class="sidebar-header d-flex align-items-center flex-column">
+                <div class="bg-side-header"></div>
+                <div class="person d-flex align-items-center flex-column">
+                    <div class="avatar"><img src="img/avatar2.png" alt="..." class="img-fluid rounded-circle"></div>
+                    <div class="title">
+                        <h1 class="h4">Mark Stephen</h1>
+                        <p><span class="success-verificarion"></span>Verification</p>
+                    </div>
+                </div>
+
+            </div>
+            <ul class="list-unstyled">
+                <li class=""><a href="dashboard.html"><i class="material-icons">dashboard</i><span class="span_list">Панель управления</span></a></li>
+                <li class="active"><a href="profile.html"><i class="material-icons">person</i><span class="span_list">Профиль</span></a></li>
+                <li class=""><a href="shop1.html"><i class="material-icons">shopping_cart</i><span class="span_list">Мои магазины</span></a></li>
+                <li class=""><a href="documentation.html"><i class="material-icons">info_outline</i><span class="span_list">Интеграция</span></a></li>
+                <li class=""><a href="support.html"><i class="material-icons">assignment</i><span class="span_list">Поддержка</span></a></li>
+                <li class=""><a href="affiliate.html"><i class="material-icons">trending_up</i><span class="span_list">Аффилейт программа</span></a></li>
+            </ul>
+        </nav>
+        <div class="content-inner">
+            <!-- Page Header-->
+            <header class="page-header">
+                <div class="container-fluid">
+                    <h2 class="no-margin-bottom text-title">Персональная информация</h2>
+                </div>
+            </header>
+            <section class="profile">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-8 col-md-7 col-sm-12 col-12">
+                            <div class="card">
+                                <div class="card-body">
+                                    <form action="">
+                                        <div class="row">
+                                            <div class="form-group col-12 col-md-6">
+                                                <label for="">Имя</label>
+                                                <input type="text" class="form-control">
+                                            </div>
+                                            <div class="form-group col-12 col-md-6">
+                                                <label for="">Фамилия</label>
+                                                <input type="text" class="form-control">
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="form-group col-12 col-md-8 col-sm-12">
+                                                <label for="">Email</label>
+                                                <input type="email" class="form-control">
+                                            </div>
+                                            <div class="form-group col-12 col-md-4 col-sm-12">
+                                                <label for="">Дата рождения</label>
+                                                <input type="text" class="form-control">
+                                            </div>
+                                        </div>
+                                        <div class="row align-items-end mb-3">
+                                            <div class="form-group col-2">
+                                                <input type="email" class="form-control">
+                                            </div>
+                                            <div class="form-group col-10">
+                                                <div class="row align-items-end">
+                                                    <div class="col-10">
+                                                        <label for="">Дата рождения</label>
+                                                        <input type="text" class="form-control">
+                                                    </div>
+                                                    <div class="col-2">
+                                                        <img src="img/plus.png" alt="">
+                                                        <div class="info d-flex justify-content-around">
+                                                            <p>ДОБАВИТЬ ТЕЛЕФОННЫЙ НОМЕР</p>
+                                                            <div class="arrow">
+                                                                <img src="img/arrow.png" alt="">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-button">
+                                            <button type="button" class="btn btn-purple">Сохранить</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-5 col-sm-12 col-12">
+                            <div class="card card-bg_pass">
+                                <div class="card-body">
+                                    <h4 class="text-center h3">Смена пароля</h4>
+                                    <form action="">
+                                        <div class="row">
+                                            <div class="form-group col-12">
+                                                <input type="password" class="form-control" placeholder="Введите текущий пароль">
+                                            </div>
+                                            <div class="form-group col-12">
+                                                <input type="password" class="form-control" placeholder="Введите новый пароль">
+                                            </div>
+                                            <div class="form-group col-12">
+                                                <input type="password" class="form-control" placeholder="Повторите новый пароль">
+                                            </div>
+                                        </div>
+                                        <div class="form-button text-center">
+                                            <button type="button" class="btn btn-purple">Изменить</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-8 col-md-7 col-sm-12 col-12">
+                            <div class="card">
+                                <div class="card-body">
+                                    <form action="">
+                                        <div class="row">
+                                            <div class="form-group col-12 col-md-6">
+                                                <label for="">Страна</label>
+                                                <input type="text" class="form-control">
+                                            </div>
+                                            <div class="form-group col-12 col-md-6">
+                                                <label for="">Область</label>
+                                                <input type="text" class="form-control">
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="form-group col-12 col-md-4 col-sm-12">
+                                                <label for="">Город</label>
+                                                <input type="text" class="form-control">
+                                            </div>
+                                            <div class="form-group col-12 col-md-4 col-sm-12">
+                                                <label for="">Улица</label>
+                                                <input type="text" class="form-control">
+                                            </div>
+                                            <div class="form-group col-12 col-md-4 col-sm-12">
+                                                <label for="">Почтовый индекс</label>
+                                                <input type="text" class="form-control">
+                                            </div>
+                                        </div>
+                                        <div class="form-button">
+                                            <button type="button" class="btn btn-purple">Сохранить</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-5 col-sm-12 col-12">
+                            <div class="card card-bg_auth">
+                                <div class="card-body">
+                                    <h4 class="text-center h3 mb-0">Двухэтапная аутентификация</h4>
+                                    <div class="on">
+                                    	<label class="label">
+										    <input  class="label__checkbox" type="checkbox" />
+										    <span class="label__text">
+										      	<span class="label__check">
+										        	<i class="material-icons icon">done</i>
+										      	</span>
+										    </span>
+									      	<span>ВКЛЮЧИТЬ</span>
+									  	</label>
+                                    </div>
+                                    <h4 class="text-center h3 mb-16">Новые одноразовые пароли</h4>
+                                    <button type="button" class="btn btn-transparent mb-16">Создать</button>
+                                    <div class="qr-info d-flex align-items-center">
+                                    	<i class="material-icons">info</i>
+                                    	<p class="mb-0">При создании новых одноразовых кодов, старые будут аннулированы</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="documents">
+	            <div class="container-fluid">
+	            	<h2 class="text-title">Документы</h2>
+	            	<div class="row">
+	            		<div class="col-4">
+	            			<div class="card card-document">
+	            				<div class="card-body">
+	            					<h4 class="text-center h3 mb-0">Паспорт | ID карта</h4>
+	            					<p><span class="success-verificarion"></span>Подтверждён</p>
+                                    <div class="file-upload mdl-button d-flex align-items-center justify-content-center">
+                                        <span class="btn btn-upload"><i class="material-icons">file_upload</i> BROWSE</span>
+                                        <input type="file" name="FileAttachment" id="FileAttachment" class="upload" />
+                                        <button type="button" class="btn btn-purple">Отправить</button>
+                                    </div>
+	            				</div>
+	            			</div>
+	            		</div>
+	            		<div class="col-4">
+	            			<div class="card card-document">
+	            				<div class="card-body">
+	            					<h4 class="text-center h3 mb-0">Счет за коммунальные услуги</h4>
+	            					<p><span class="waiting-verificarion"></span>Ожидает верификацию</p>
+	            			        <div class="file-upload mdl-button d-flex align-items-center justify-content-center">
+                                        <span class="btn btn-upload"><i class="material-icons">file_upload</i> BROWSE</span>
+                                        <input type="file" name="FileAttachment" id="FileAttachment" class="upload" />
+                                        <button type="button" class="btn btn-purple">Отправить</button>
+                                    </div>   
+                                </div>
+	            			</div>
+	            		</div>
+	            		<div class="col-4">
+	            			<div class="card card-document">
+	            				<div class="card-body">
+	            					<h4 class="text-center h3 mb-0">Скан | Фото банковской карты</h4>
+	            					<p><span class="fail-verificarion"></span>Не отправлен</p>
+                                    <div class="file-upload mdl-button d-flex align-items-center justify-content-center">
+                                        <span class="btn btn-upload"><i class="material-icons">file_upload</i> BROWSE</span>
+                                        <input type="file" name="FileAttachment" id="FileAttachment" class="upload" />
+                                        <button type="button" class="btn btn-purple">Отправить</button>
+                                    </div>
+	            				</div>
+	            			</div>
+	            		</div>
+	            	</div>
+	            </div>
+            </section>
+            <section class="valuta">
+                <div class="container-fluid">
+                    <h2 class="text-title">Выбрать основную валюту или криптовалюту</h2>
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="card card-val">
+                                <div class="card-body">
+                                    <form action="" class="row">
+                                        <div class="form-group col-md-6 col-12">
+                                            <select class="form-control ">
+                                                <option>BTC</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group col-md-6 col-12">
+                                            <select class="form-control ">
+                                                <option>ETH</option>
+                                            </select>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+</div>
+<!-- Javascript files-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="js/tether.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.cookie.js"></script>
+<script src="js/jquery.validate.min.js"></script>
+<script src="js/front.js"></script>
+</body>
+</html>
